@@ -1,7 +1,7 @@
 .SUFFIXES: .o .cpp .h
 CXX = g++
 CFLAGS := -O3 -pthread -std=c++0x -march=native -funroll-loops -Wall -Wl,--no-as-needed
-OBJ = mf.o convert.o train.o predict.o view.o
+OBJ = mf.o convert.o train.o predict.o
 
 all: kdmf
 
