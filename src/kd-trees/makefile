@@ -1,7 +1,7 @@
 RM := rm -rf
 
 # Compiler that we are using
-CC=icpc
+CC=g++-6
 
 # Optimization levels and any other flags
 CFLAGS=-O3 -xT
