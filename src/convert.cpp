@@ -2,6 +2,7 @@
 #include <iostream>
 #include <cstring>
 #include "mf.h"
+#include "./kd-trees/build_tree.h"
 
 namespace 
 {
