@@ -82,5 +82,3 @@ int convert(int const argc, char const * const * const argv);
 int train(int const argc, char const * const * const argv);
 
 int predict(int const argc, char const * const * const argv);
-
-int view(int const argc, char const * const * const argv);
