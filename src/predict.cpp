@@ -13,7 +13,7 @@ struct PredictOption
 
 void predict_help()
 {
-    printf("usage: libmf predict binary_test_file model [output]\n");
+    printf("usage: kdmf predict binary_test_file model [output]\n");
 }
 
 std::shared_ptr<PredictOption> parse_predict_option(
